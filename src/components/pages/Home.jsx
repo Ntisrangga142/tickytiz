@@ -5,7 +5,7 @@ import { fetchAllMoviesThunk } from '../../redux/movie/moviesSlice';
 import Hero from '../templates/Home/Hero'
 import ChooseUs from '../templates/Home/ChooseUs'
 import Trending from '../templates/Home/Trending'
-import UpComing from '../templates/Home/UpComing.jsx'
+import Upcoming from '../templates/Home/UpComing'
 import Subscribe from '../templates/Subscribe'
 
 function Home() {
@@ -28,7 +28,7 @@ function Home() {
         <Hero movies={popular} />
         <ChooseUs />
         <Trending movies={nowPlaying} />
-        <UpComing movies={upcoming} />
+        <Upcoming movies={upcoming} />
         <Subscribe />
     </div>
   )
