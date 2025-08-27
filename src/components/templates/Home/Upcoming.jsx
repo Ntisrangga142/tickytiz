@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MovieCard from "../MovieCard.jsx";
 
-function Upcoming({ movies }) {
+function UpComing({ movies }) {
   const [page, setPage] = useState(1);
   const moviesPerPage = 4;
 
@@ -94,4 +94,4 @@ function Upcoming({ movies }) {
   );
 }
 
-export default Upcoming;
+export default UpComing;
