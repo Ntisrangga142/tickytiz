@@ -5,7 +5,7 @@ import { fetchAllMoviesThunk } from '../../redux/movie/moviesSlice';
 import Hero from '../templates/Home/Hero'
 import ChooseUs from '../templates/Home/ChooseUs'
 import Trending from '../templates/Home/Trending'
-import Upcoming from '../templates/Home/UpComing'
+import Upcoming from '../templates/Home/Upcoming'
 import Subscribe from '../templates/Subscribe'
 
 function Home() {
